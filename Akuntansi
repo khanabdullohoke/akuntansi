@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jurusan Akuntansi SMK – Prospek Karir, Mata Pelajaran & Keunggulan</title>
+  <meta name="description" content="Panduan lengkap jurusan Akuntansi SMK: mata pelajaran, prospek karir, kompetensi lulusan, sertifikasi, dan FAQ untuk calon siswa baru." />
+  <meta name="keywords" content="jurusan akuntansi SMK, AKL SMK, prospek kerja akuntansi, mata pelajaran akuntansi SMK, kompetensi keahlian akuntansi" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kompetensi Keahlian Akuntansi SMK: Prospek Karir, Mata Pelajaran, dan Peluang Masa Depan",
+    "description": "Panduan lengkap jurusan Akuntansi SMK: mata pelajaran, prospek karir, keunggulan, dan FAQ untuk calon siswa baru.",
+    "author": {"@type": "Organization", "name": "SMK Kompetensi Keahlian Akuntansi"}
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Apakah harus jago matematika untuk masuk jurusan Akuntansi SMK?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Tidak harus jago, tapi perlu menyukainya. Akuntansi lebih banyak tentang ketelitian dan logika berpikir, bukan berhitung cepat. Semua diajarkan dari dasar."}
+      },
+      {
+        "@type": "Question",
+        "name": "Setelah lulus Akuntansi SMK, bisa langsung kerja atau harus kuliah dulu?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Bisa keduanya. Lulusan AKL bisa langsung bekerja sebagai staf keuangan, atau melanjutkan ke D3/S1 Akuntansi di berbagai perguruan tinggi."}
+      },
+      {
+        "@type": "Question",
+        "name": "Software apa yang diajarkan di jurusan Akuntansi SMK?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Siswa dilatih menggunakan Microsoft Excel, MYOB Accounting, Accurate, dan aplikasi akuntansi digital lainnya yang relevan dengan industri."}
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue-dark:   #0C447C;
+      --blue-mid:    #185FA5;
+      --blue-light:  #E6F1FB;
+      --green-dark:  #3B6D11;
+      --green-light: #EAF3DE;
+      --amber-dark:  #854F0B;
+      --amber-light: #FAEEDA;
+      --pink-dark:   #993556;
+      --pink-light:  #FBEAF0;
+      --teal-dark:   #0F6E56;
+      --teal-light:  #E1F5EE;
+      --text-main:   #1a1a1a;
+      --text-muted:  #555;
+      --border:      rgba(0,0,0,0.1);
+      --bg-soft:     #F8F7F4;
+      --white:       #ffffff;
+      --radius-sm:   6px;
+      --radius-md:   10px;
+      --radius-lg:   16px;
+    }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--text-main);
+      background: var(--bg-soft);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 100%);
+      color: #fff;
+      padding: 56px 24px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      font-size: 13px;
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(22px, 4vw, 34px);
+      font-weight: 700;
+      line-height: 1.3;
+      max-width: 700px;
+      margin: 0 auto 16px;
+    }
+    .hero-sub {
+      font-size: 16px;
+      color: rgba(255,255,255,0.85);
+      max-width: 560px;
+      margin: 0 auto 28px;
+    }
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+    }
+    .hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* ── WRAPPER ── */
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ── INTRO BOX ── */
+    .intro-box {
+      background: var(--white);
+      border-left: 4px solid var(--blue-mid);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 20px 24px;
+      margin: 36px 0 28px;
+      font-size: 16px;
+      color: var(--text-main);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+
+    /* ── SECTIONS ── */
+    .section { margin: 40px 0; }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--blue-light);
+    }
+    .section-desc {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    h3.sub-title {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 24px 0 8px;
+      color: var(--text-main);
+    }
+    p.body-text {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-main);
+      margin-bottom: 14px;
+    }
+
+    /* ── STAT CARDS ── */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+    .stat-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 18px 14px;
+      text-align: center;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--blue-mid);
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    /* ── CHIP TAGS ── */
+    .chip-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0 24px;
+    }
+    .chip {
+      background: var(--green-light);
+      color: var(--green-dark);
+      font-size: 13px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    /* ── KARIR GRID ── */
+    .karir-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin: 16px 0 24px;
+    }
+    .karir-item {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: box-shadow .2s;
+    }
+    .karir-item:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+    .karir-icon {
+      width: 34px;
+      height: 34px;
+      background: var(--blue-light);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    /* ── SERTIFIKASI TABLE ── */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 16px 0;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      background: var(--white);
+    }
+    thead { background: var(--blue-dark); color: #fff; }
+    thead th { padding: 12px 16px; text-align: left; font-weight: 600; white-space: nowrap; }
+    tbody tr:nth-child(even) { background: var(--blue-light); }
+    tbody td { padding: 11px 16px; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+    tbody td:first-child { color: var(--text-main); font-weight: 600; }
+    tbody tr:last-child td { border-bottom: none; }
+
+    /* ── KEUNGGULAN CARDS ── */
+    .keunggulan-list { display: flex; flex-direction: column; gap: 14px; margin: 16px 0; }
+    .keunggulan-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    }
+    .keunggulan-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .keunggulan-card h4 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .keunggulan-card p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* ── FAQ ── */
+    .faq-list { margin: 16px 0; }
+    details {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    summary {
+      padding: 16px 20px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--blue-mid);
+      flex-shrink: 0;
+    }
+    details[open] summary::after { content: '−'; }
+    details[open] summary { border-bottom: 1px solid var(--border); }
+    .faq-answer {
+      padding: 16px 20px;
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+
+    /* ── TIPS BELAJAR ── */
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin: 16px 0;
+    }
+    .tips-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    }
+    .tips-card .tips-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--blue-light);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .tips-card h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text-main);
+    }
+    .tips-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* ── CTA ── */
+    .cta-box {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 100%);
+      border-radius: var(--radius-lg);
+      padding: 36px 28px;
+      text-align: center;
+      color: #fff;
+      margin: 40px 0 20px;
+    }
+    .cta-box h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .cta-box p {
+      font-size: 15px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 22px;
+    }
+    .cta-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    .btn-primary {
+      background: #fff;
+      color: var(--blue-dark);
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity .2s;
+    }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-outline {
+      border: 1.5px solid rgba(255,255,255,0.6);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.1); }
+
+    /* ── FOOTER NAV ── */
+    .footer-nav {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 20px 24px;
+      margin-bottom: 48px;
+    }
+    .footer-nav p { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
+    .jurusan-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .jurusan-links a {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: background .15s;
+    }
+    .jurusan-links a:hover { background: var(--blue-light); color: var(--blue-dark); }
+    .jurusan-links a.active {
+      background: var(--blue-mid);
+      color: #fff;
+      border-color: var(--blue-mid);
+    }
+
+    /* ── DIVIDER ── */
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    @media (max-width: 520px) {
+      .hero { padding: 40px 20px 36px; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .tips-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-badge">📘 Kompetensi Keahlian &nbsp;|&nbsp; AKL – Akuntansi &amp; Keuangan Lembaga</div>
+  <h1>Jurusan Akuntansi SMK: Prospek Karir, Mata Pelajaran, dan Peluang Masa Depan</h1>
+  <p class="hero-sub">Panduan lengkap untuk calon siswa baru yang ingin memilih jurusan Akuntansi dengan penuh keyakinan.</p>
+  <div class="hero-meta">
+    <span>🎓 Jenjang SMK / Sederajat</span>
+    <span>📌 Program 3 Tahun</span>
+    <span>📅 Diperbarui 2025</span>
+  </div>
+</header>
+
+<!-- KONTEN UTAMA -->
+<main class="container">
+
+  <div class="intro-box">
+    Masih bingung memilih jurusan SMK? Kalau kamu suka angka, teliti, dan ingin punya keahlian yang langsung bisa dipakai kerja — jurusan Akuntansi bisa jadi pilihan tepat. Artikel ini menjawab semua pertanyaanmu secara tuntas: dari mata pelajaran, prospek karir, hingga sertifikasi yang bisa kamu raih.
+  </div>
+
+  <!-- 1. Apa Itu -->
+  <section class="section" id="tentang">
+    <h2 class="section-title">Apa Itu Jurusan Akuntansi di SMK?</h2>
+    <p class="body-text">Jurusan <strong>Akuntansi dan Keuangan Lembaga (AKL)</strong> adalah program keahlian yang membekali siswa dengan kemampuan mencatat, mengelola, dan melaporkan keuangan secara profesional sesuai standar industri nasional (SKKNI).</p>
+    <p class="body-text">Jurusan ini tidak hanya mengajarkan teori, tetapi juga praktik langsung menggunakan software akuntansi modern dan simulasi dunia kerja nyata — sehingga lulusan benar-benar siap pakai sejak hari pertama bekerja.</p>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-num">3 Thn</div>
+        <div class="stat-label">Durasi belajar (Kelas X – XII)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">70%</div>
+        <div class="stat-label">Porsi praktik &amp; simulasi industri</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">PKL</div>
+        <div class="stat-label">Magang langsung di dunia kerja nyata</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">UKK</div>
+        <div class="stat-label">Sertifikat kompetensi resmi nasional</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 2. Mata Pelajaran -->
+  <section class="section" id="mapel">
+    <h2 class="section-title">Mata Pelajaran yang Dipelajari</h2>
+    <p class="section-desc">Selama tiga tahun, kamu akan mempelajari berbagai bidang keahlian akuntansi dari dasar hingga tingkat lanjut.</p>
+
+    <h3 class="sub-title">Mata Pelajaran Umum &amp; Adaptif</h3>
+    <div class="chip-wrap">
+      <span class="chip">Matematika Keuangan</span>
+      <span class="chip">Bahasa Indonesia</span>
+      <span class="chip">Bahasa Inggris Bisnis</span>
+      <span class="chip">Pendidikan Agama</span>
+      <span class="chip">PKWU (Kewirausahaan)</span>
+    </div>
+
+    <h3 class="sub-title">Mata Pelajaran Kejuruan (Keahlian Utama)</h3>
+    <div class="chip-wrap">
+      <span class="chip">Dasar-dasar Akuntansi</span>
+      <span class="chip">Akuntansi Perusahaan Jasa</span>
+      <span class="chip">Akuntansi Perusahaan Dagang</span>
+      <span class="chip">Akuntansi Manufaktur</span>
+      <span class="chip">Perpajakan &amp; Administrasi Pajak</span>
+      <span class="chip">Aplikasi Komputer Akuntansi</span>
+      <span class="chip">Spreadsheet (Microsoft Excel)</span>
+      <span class="chip">Perbankan Dasar</span>
+      <span class="chip">Akuntansi Biaya</span>
+      <span class="chip">Etika Profesi Keuangan</span>
+      <span class="chip">Akuntansi Lembaga / Pemerintah</span>
+      <span class="chip">Pengelolaan Kas &amp; Bank</span>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 3. Kompetensi Lulusan -->
+  <section class="section" id="kompetensi">
+    <h2 class="section-title">Kompetensi yang Dikuasai Lulusan</h2>
+    <p class="section-desc">Berdasarkan Standar Kompetensi Kerja Nasional Indonesia (SKKNI), berikut keahlian yang wajib dikuasai lulusan AKL.</p>
+
+    <div class="keunggulan-list">
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--blue-light);">📋</div>
+        <div>
+          <h4>Menyusun Laporan Keuangan</h4>
+          <p>Membuat jurnal, buku besar, neraca saldo, laporan laba rugi, laporan perubahan ekuitas, dan neraca sesuai SAK ETAP.</p>
+        </div>
+      </div>
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--green-light);">💰</div>
+        <div>
+          <h4>Mengelola Kas dan Bank</h4>
+          <p>Membuat buku kas harian, rekonsiliasi bank, dan mengelola arus kas perusahaan secara akurat dan tertib.</p>
+        </div>
+      </div>
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--amber-light);">📦</div>
+        <div>
+          <h4>Mengelola Aset Tetap &amp; Persediaan</h4>
+          <p>Mencatat, menghitung depresiasi aset tetap, dan mengelola kartu persediaan dengan metode FIFO, LIFO, dan rata-rata.</p>
+        </div>
+      </div>
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--pink-light);">🧾</div>
+        <div>
+          <h4>Administrasi Pajak</h4>
+          <p>Menghitung, menyetor, dan melaporkan pajak PPh 21, PPh 23, PPN, dan pajak daerah sesuai peraturan perpajakan berlaku.</p>
+        </div>
+      </div>
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--blue-light);">💻</div>
+        <div>
+          <h4>Mengoperasikan Software Akuntansi</h4>
+          <p>Menggunakan MYOB Accounting, Accurate, atau Zahir untuk mencatat transaksi dan mencetak laporan keuangan secara otomatis.</p>
+        </div>
+      </div>
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon" style="background:var(--teal-light);">👥</div>
+        <div>
+          <h4>Memproses Penggajian (Payroll)</h4>
+          <p>Menghitung gaji pokok, tunjangan, PPh 21 karyawan, iuran BPJS, dan menyusun daftar gaji perusahaan secara lengkap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 4. Prospek Karir -->
+  <section class="section" id="karir">
+    <h2 class="section-title">Prospek Karir Lulusan Akuntansi SMK</h2>
+    <p class="section-desc">Pertanyaan paling umum dari calon siswa dan orang tua: <em>"Nanti kerja di mana?"</em> — Jawabannya: banyak pilihan!</p>
+
+    <div class="karir-grid">
+      <div class="karir-item">
+        <div class="karir-icon">🏢</div>
+        Staf Keuangan Perusahaan
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🧾</div>
+        Administrasi Pajak
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">📊</div>
+        Akuntan Junior
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🏦</div>
+        Teller / Kasir Bank
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">👥</div>
+        Staf HRD &amp; Payroll
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">💻</div>
+        Operator Software Akuntansi
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🔍</div>
+        Asisten Auditor
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🏪</div>
+        Wirausaha Mandiri
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🎓</div>
+        Lanjut D3/S1 Akuntansi
+      </div>
+      <div class="karir-item">
+        <div class="karir-icon">🏛️</div>
+        Instansi Pemerintah Daerah
+      </div>
+    </div>
+
+    <p class="body-text">Lulusan AKL juga sangat diminati di sektor UMKM, koperasi, dan lembaga keuangan yang membutuhkan tenaga pembukuan dan administrasi keuangan terampil dengan harga yang terjangkau bagi pelaku usaha kecil.</p>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 5. Sertifikasi -->
+  <section class="section" id="sertifikasi">
+    <h2 class="section-title">Sertifikasi Profesi yang Dapat Diraih</h2>
+    <p class="section-desc">Lulusan SMK Akuntansi berkesempatan meraih sertifikasi bertaraf nasional maupun internasional yang meningkatkan daya saing di pasar kerja.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Sertifikasi</th>
+            <th>Penyelenggara</th>
+            <th>Ruang Lingkup</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Uji Kompetensi Keahlian (UKK)</td>
+            <td>BNSP / Kemendikbud</td>
+            <td>Sertifikat kompetensi nasional wajib SMK</td>
+          </tr>
+          <tr>
+            <td>Brevet Pajak A &amp; B</td>
+            <td>IAI / IKPI</td>
+            <td>Perpajakan dasar dan menengah</td>
+          </tr>
+          <tr>
+            <td>Certified Accounting Technician (CAT)</td>
+            <td>IAI</td>
+            <td>Teknisi akuntansi nasional</td>
+          </tr>
+          <tr>
+            <td>MYOB Certified User</td>
+            <td>MYOB Indonesia</td>
+            <td>Software akuntansi MYOB</td>
+          </tr>
+          <tr>
+            <td>Accurate Certified User</td>
+            <td>CPSSoft</td>
+            <td>Software akuntansi Accurate</td>
+          </tr>
+          <tr>
+            <td>Microsoft Office Specialist (MOS)</td>
+            <td>Microsoft</td>
+            <td>Excel tingkat mahir untuk keuangan</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 6. Tips Sukses -->
+  <section class="section" id="tips">
+    <h2 class="section-title">Tips Sukses di Jurusan Akuntansi</h2>
+    <p class="section-desc">Empat kunci yang membedakan lulusan biasa dengan lulusan yang langsung dilirik perusahaan.</p>
+
+    <div class="tips-grid">
+      <div class="tips-card">
+        <div class="tips-num">01</div>
+        <h4>Kuasai Dasar Sebelum Software</h4>
+        <p>Tanpa memahami siklus akuntansi secara manual, penggunaan software tidak akan bermakna. Kuasai jurnal umum dan buku besar terlebih dahulu.</p>
+      </div>
+      <div class="tips-card">
+        <div class="tips-num">02</div>
+        <h4>Biasakan Teliti &amp; Teratur</h4>
+        <p>Selisih satu rupiah pun bisa mengindikasikan kesalahan pencatatan serius. Periksa ulang setiap entri — ini bukan kebiasaan, ini standar profesi.</p>
+      </div>
+      <div class="tips-card">
+        <div class="tips-num">03</div>
+        <h4>Ikuti Perubahan Regulasi Pajak</h4>
+        <p>Aturan perpajakan Indonesia kerap berubah. Pantau pembaruan di situs resmi DJP (djponline.pajak.go.id) dan publikasi IAI secara rutin.</p>
+      </div>
+      <div class="tips-card">
+        <div class="tips-num">04</div>
+        <h4>Maksimalkan PKL</h4>
+        <p>PKL bukan formalitas. Ini kesempatan emas membangun portofolio dan jaringan profesional. Bersikaplah proaktif selama magang berlangsung.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- 7. FAQ -->
+  <section class="section" id="faq">
+    <h2 class="section-title">Pertanyaan yang Sering Ditanyakan (FAQ)</h2>
+    <p class="section-desc">Jawaban jujur untuk keraguan yang paling umum dari calon siswa dan orang tua.</p>
+
+    <div class="faq-list">
+      <details>
+        <summary>Apakah saya harus jago matematika untuk masuk jurusan Akuntansi?</summary>
+        <div class="faq-answer">Tidak harus jago, tapi kamu perlu menyukainya. Akuntansi SMK lebih banyak tentang ketelitian, kedisiplinan, dan logika berpikir — bukan berhitung cepat seperti olimpiade matematika. Semua materi diajarkan dari dasar, jadi tidak perlu khawatir jika matematikamu biasa-biasa saja.</div>
+      </details>
+      <details>
+        <summary>Setelah lulus Akuntansi SMK, bisa langsung kerja atau harus kuliah dulu?</summary>
+        <div class="faq-answer">Bisa keduanya, sepenuhnya pilihan kamu! Lulusan AKL bisa langsung bekerja sebagai staf keuangan, kasir bank, atau operator akuntansi. Atau bisa melanjutkan ke D3/S1 Akuntansi, Manajemen, atau Perbankan di berbagai perguruan tinggi negeri maupun swasta.</div>
+      </details>
+      <details>
+        <summary>Software apa saja yang diajarkan di jurusan Akuntansi SMK?</summary>
+        <div class="faq-answer">Siswa dilatih menggunakan Microsoft Excel secara mendalam (termasuk rumus-rumus keuangan), serta aplikasi akuntansi digital seperti MYOB, Accurate, atau Zahir yang nyata dipakai industri. Penguasaan software ini menjadi nilai jual utama lulusan AKL di pasar kerja.</div>
+      </details>
+      <details>
+        <summary>Bagaimana sistem PKL (Praktik Kerja Lapangan)?</summary>
+        <div class="faq-answer">PKL dilaksanakan pada kelas XI atau XII selama 3–6 bulan di perusahaan, kantor pemerintah, koperasi, atau lembaga keuangan yang bekerja sama dengan sekolah. Siswa mendapat pembimbingan dari guru dan supervisor di tempat magang, serta laporan PKL menjadi salah satu syarat kelulusan.</div>
+      </details>
+      <details>
+        <summary>Apakah jurusan ini cocok untuk perempuan?</summary>
+        <div class="faq-answer">Sangat cocok! Mayoritas siswa di jurusan Akuntansi SMK memang perempuan, dan profesi akuntan serta staf keuangan sangat terbuka luas untuk semua gender. Lingkungan kerja di bidang keuangan umumnya kondusif dan profesional.</div>
+      </details>
+      <details>
+        <summary>Apakah lulusan AKL bisa bekerja di luar bidang keuangan?</summary>
+        <div class="faq-answer">Tentu. Kemampuan analitis, ketelitian, dan penguasaan data yang dilatih di jurusan Akuntansi sangat relevan di berbagai bidang seperti administrasi umum, manajemen stok/gudang, hingga wirausaha mandiri. Banyak pengusaha sukses berlatar belakang akuntansi karena mereka memahami alur keuangan bisnis secara menyeluruh.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-box">
+    <h2>Siap Memilih Jurusan Akuntansi?</h2>
+    <p>Hubungi sekolah untuk informasi pendaftaran, jadwal kunjungan, dan konsultasi pemilihan jurusan gratis.</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn-primary">📝 Daftar Sekarang</a>
+      <a href="#" class="btn-outline">📞 Hubungi Kami</a>
+    </div>
+  </div>
+
+  <!-- Navigasi Jurusan -->
+  <div class="footer-nav">
+    <p>📂 Jelajahi semua kompetensi keahlian di SMK:</p>
+    <div class="jurusan-links">
+      <a href="#" class="active">Akuntansi (AKL)</a>
+      <a href="#">Teknik Komputer &amp; Jaringan</a>
+      <a href="#">Administrasi Perkantoran</a>
+      <a href="#">Pemasaran</a>
+      <a href="#">Farmasi</a>
+      <a href="#">Keperawatan</a>
+      <a href="#">Jurusan Lainnya</a>
+    </div>
+  </div>
+
+</main>
+</body>
+</html>
