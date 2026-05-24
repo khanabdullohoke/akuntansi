@@ -8,7 +8,7 @@
   <meta name="keywords" content="jurusan akuntansi SMK, AKL SMK, prospek kerja akuntansi, mata pelajaran akuntansi SMK, kompetensi keahlian akuntansi" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
@@ -48,29 +48,44 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --blue-dark:   #0C447C;
-      --blue-mid:    #185FA5;
-      --blue-light:  #E6F1FB;
-      --green-dark:  #3B6D11;
-      --green-light: #EAF3DE;
-      --amber-dark:  #854F0B;
-      --amber-light: #FAEEDA;
-      --pink-dark:   #993556;
-      --pink-light:  #FBEAF0;
-      --teal-dark:   #0F6E56;
-      --teal-light:  #E1F5EE;
-      --text-main:   #1a1a1a;
-      --text-muted:  #555;
-      --border:      rgba(0,0,0,0.1);
-      --bg-soft:     #F8F7F4;
+      /* Deep Royal Blue palette — #0b3d91 → #1565c0 → #1e88e5 */
+      --navy:        #0b3d91;
+      --navy-m:      #1565c0;
+      --navy-l:      #1e88e5;
+      --navy-xl:     #061f52;
+      --navy-rgb:    11,61,145;
+      --gold:        #ffb300;
+      --gold-l:      #ffd54f;
+      --gold-d:      #f57c00;
+      --gold-p:      #fffde7;
+      --gold-rgb:    255,179,0;
+      /* Semantic palette — mapped to new blue */
+      --blue-dark:   #0b3d91;
+      --blue-mid:    #1565c0;
+      --blue-light:  #e8f0fe;
+      --green-dark:  #1565c0;
+      --green-light: #e8f0fe;
+      --amber-dark:  #e65100;
+      --amber-light: #fff8e1;
+      --pink-dark:   #1565c0;
+      --pink-light:  #e3f2fd;
+      --teal-dark:   #0b3d91;
+      --teal-light:  #e8f0fe;
+      --text-main:   #0a1e40;
+      --text-muted:  #3d5a8a;
+      --border:      #b8d0f7;
+      --bg-soft:     #f5f9ff;
       --white:       #ffffff;
       --radius-sm:   6px;
       --radius-md:   10px;
       --radius-lg:   16px;
+      --font:        'Plus Jakarta Sans', sans-serif;
+      --font-body:   'DM Sans', sans-serif;
+      --t:           .18s ease;
     }
 
     body {
-      font-family: 'Source Sans 3', sans-serif;
+      font-family: var(--font-body);
       font-size: 16px;
       line-height: 1.75;
       color: var(--text-main);
@@ -79,7 +94,7 @@
 
     /* ── HERO ── */
     .hero {
-      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 100%);
+      background: linear-gradient(135deg, var(--navy-xl) 0%, var(--navy) 50%, var(--navy-m) 100%);
       color: #fff;
       padding: 56px 24px 48px;
       text-align: center;
@@ -90,30 +105,34 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1.5' cy='1.5' r='1.5' fill='%23ffb300' fill-opacity='.05'/%3E%3C/svg%3E");
     }
     .hero-badge {
       display: inline-block;
-      background: rgba(255,255,255,0.15);
-      border: 1px solid rgba(255,255,255,0.3);
-      color: #fff;
+      background: rgba(255,179,0,0.15);
+      border: 1px solid rgba(255,179,0,0.35);
+      color: var(--gold-l);
+      font-family: var(--font);
       font-size: 13px;
+      font-weight: 600;
       padding: 5px 16px;
       border-radius: 20px;
       margin-bottom: 20px;
       letter-spacing: 0.5px;
     }
     .hero h1 {
-      font-family: 'Playfair Display', serif;
+      font-family: var(--font);
       font-size: clamp(22px, 4vw, 34px);
-      font-weight: 700;
-      line-height: 1.3;
+      font-weight: 800;
+      line-height: 1.25;
       max-width: 700px;
       margin: 0 auto 16px;
+      letter-spacing: -.3px;
     }
     .hero-sub {
+      font-family: var(--font-body);
       font-size: 16px;
-      color: rgba(255,255,255,0.85);
+      color: rgba(255,255,255,0.8);
       max-width: 560px;
       margin: 0 auto 28px;
     }
@@ -122,8 +141,9 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 10px;
+      font-family: var(--font-body);
       font-size: 13px;
-      color: rgba(255,255,255,0.7);
+      color: rgba(255,255,255,0.65);
     }
     .hero-meta span {
       display: flex;
@@ -141,38 +161,43 @@
     /* ── INTRO BOX ── */
     .intro-box {
       background: var(--white);
-      border-left: 4px solid var(--blue-mid);
+      border-left: 4px solid var(--navy-m);
       border-radius: 0 var(--radius-md) var(--radius-md) 0;
       padding: 20px 24px;
       margin: 36px 0 28px;
+      font-family: var(--font-body);
       font-size: 16px;
       color: var(--text-main);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      box-shadow: 0 2px 12px rgba(11,61,145,0.07);
     }
 
     /* ── SECTIONS ── */
     .section { margin: 40px 0; }
     .section-title {
-      font-family: 'Playfair Display', serif;
+      font-family: var(--font);
       font-size: 22px;
-      font-weight: 700;
-      color: var(--text-main);
+      font-weight: 800;
+      color: var(--navy);
       margin-bottom: 6px;
       padding-bottom: 10px;
       border-bottom: 2px solid var(--blue-light);
+      letter-spacing: -.2px;
     }
     .section-desc {
+      font-family: var(--font-body);
       font-size: 15px;
       color: var(--text-muted);
       margin-bottom: 20px;
     }
     h3.sub-title {
+      font-family: var(--font);
       font-size: 17px;
-      font-weight: 600;
+      font-weight: 700;
       margin: 24px 0 8px;
-      color: var(--text-main);
+      color: var(--navy);
     }
     p.body-text {
+      font-family: var(--font-body);
       font-size: 15px;
       line-height: 1.8;
       color: var(--text-main);
@@ -188,19 +213,21 @@
     }
     .stat-card {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-md);
       padding: 18px 14px;
       text-align: center;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+      box-shadow: 0 1px 6px rgba(11,61,145,0.06);
     }
     .stat-num {
-      font-family: 'Playfair Display', serif;
+      font-family: var(--font);
       font-size: 26px;
-      font-weight: 700;
-      color: var(--blue-mid);
+      font-weight: 800;
+      color: var(--navy-m);
+      letter-spacing: -.3px;
     }
     .stat-label {
+      font-family: var(--font-body);
       font-size: 12px;
       color: var(--text-muted);
       margin-top: 5px;
@@ -215,14 +242,15 @@
       margin: 16px 0 24px;
     }
     .chip {
-      background: var(--green-light);
-      color: var(--green-dark);
+      background: var(--blue-light);
+      color: var(--navy-m);
+      font-family: var(--font);
       font-size: 13px;
+      font-weight: 600;
       padding: 5px 14px;
       border-radius: 20px;
-      font-weight: 500;
+      border: 1px solid rgba(11,61,145,0.15);
     }
-
     /* ── KARIR GRID ── */
     .karir-grid {
       display: grid;
@@ -232,17 +260,19 @@
     }
     .karir-item {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-md);
       padding: 14px 16px;
+      font-family: var(--font-body);
       font-size: 14px;
       font-weight: 500;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 10px;
-      transition: box-shadow .2s;
+      transition: box-shadow var(--t), border-color var(--t);
     }
-    .karir-item:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+    .karir-item:hover { box-shadow: 0 4px 14px rgba(11,61,145,0.1); border-color: var(--navy-m); }
     .karir-icon {
       width: 34px;
       height: 34px;
@@ -260,33 +290,36 @@
       overflow-x: auto;
       margin: 16px 0;
       border-radius: var(--radius-md);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
     }
     table {
       width: 100%;
       border-collapse: collapse;
+      font-family: var(--font-body);
       font-size: 14px;
       background: var(--white);
     }
-    thead { background: var(--blue-dark); color: #fff; }
-    thead th { padding: 12px 16px; text-align: left; font-weight: 600; white-space: nowrap; }
+    thead { background: var(--navy); color: #fff; }
+    thead th { padding: 12px 16px; text-align: left; font-family: var(--font); font-weight: 700; white-space: nowrap; }
     tbody tr:nth-child(even) { background: var(--blue-light); }
-    tbody td { padding: 11px 16px; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
-    tbody td:first-child { color: var(--text-main); font-weight: 600; }
+    tbody td { padding: 11px 16px; border-bottom: 1px solid var(--blue-light); color: var(--text-muted); vertical-align: top; }
+    tbody td:first-child { color: var(--navy); font-family: var(--font); font-weight: 600; }
     tbody tr:last-child td { border-bottom: none; }
 
     /* ── KEUNGGULAN CARDS ── */
     .keunggulan-list { display: flex; flex-direction: column; gap: 14px; margin: 16px 0; }
     .keunggulan-card {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-lg);
       padding: 18px 20px;
       display: flex;
       gap: 16px;
       align-items: flex-start;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+      box-shadow: 0 1px 6px rgba(11,61,145,0.06);
+      transition: box-shadow var(--t), border-color var(--t);
     }
+    .keunggulan-card:hover { box-shadow: 0 4px 18px rgba(11,61,145,0.1); border-color: rgba(11,61,145,0.25); }
     .keunggulan-icon {
       width: 42px;
       height: 42px;
@@ -298,11 +331,14 @@
       flex-shrink: 0;
     }
     .keunggulan-card h4 {
+      font-family: var(--font);
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 4px;
+      color: var(--navy);
     }
     .keunggulan-card p {
+      font-family: var(--font-body);
       font-size: 14px;
       color: var(--text-muted);
       line-height: 1.6;
@@ -312,15 +348,19 @@
     .faq-list { margin: 16px 0; }
     details {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-md);
       margin-bottom: 10px;
       overflow: hidden;
+      transition: box-shadow var(--t);
     }
+    details:hover { box-shadow: 0 2px 10px rgba(11,61,145,0.08); }
     summary {
       padding: 16px 20px;
+      font-family: var(--font);
       font-size: 15px;
       font-weight: 600;
+      color: var(--navy);
       cursor: pointer;
       list-style: none;
       display: flex;
@@ -333,13 +373,14 @@
       content: '+';
       font-size: 20px;
       font-weight: 400;
-      color: var(--blue-mid);
+      color: var(--navy-m);
       flex-shrink: 0;
     }
-    details[open] summary::after { content: '−'; }
-    details[open] summary { border-bottom: 1px solid var(--border); }
+    details[open] summary::after { content: '−'; color: var(--gold); }
+    details[open] summary { border-bottom: 1px solid var(--blue-light); background: var(--blue-light); }
     .faq-answer {
       padding: 16px 20px;
+      font-family: var(--font-body);
       font-size: 14px;
       color: var(--text-muted);
       line-height: 1.75;
@@ -354,26 +395,30 @@
     }
     .tips-card {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-md);
       padding: 18px;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+      box-shadow: 0 1px 6px rgba(11,61,145,0.06);
+      transition: box-shadow var(--t), transform var(--t);
     }
+    .tips-card:hover { box-shadow: 0 6px 20px rgba(11,61,145,0.12); transform: translateY(-2px); }
     .tips-card .tips-num {
-      font-family: 'Playfair Display', serif;
+      font-family: var(--font);
       font-size: 28px;
-      font-weight: 700;
-      color: var(--blue-light);
+      font-weight: 800;
+      color: var(--gold-l);
       line-height: 1;
       margin-bottom: 8px;
     }
     .tips-card h4 {
+      font-family: var(--font);
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 6px;
-      color: var(--text-main);
+      color: var(--navy);
     }
     .tips-card p {
+      font-family: var(--font-body);
       font-size: 13px;
       color: var(--text-muted);
       line-height: 1.6;
@@ -381,56 +426,74 @@
 
     /* ── CTA ── */
     .cta-box {
-      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 100%);
+      background: linear-gradient(135deg, var(--navy-xl) 0%, var(--navy) 55%, var(--navy-m) 100%);
       border-radius: var(--radius-lg);
-      padding: 36px 28px;
+      padding: 40px 28px;
       text-align: center;
       color: #fff;
       margin: 40px 0 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-box::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='1' fill='%23ffb300' fill-opacity='.05'/%3E%3C/svg%3E");
+      pointer-events: none;
     }
     .cta-box h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
+      font-family: var(--font);
+      font-size: 24px;
+      font-weight: 800;
       margin-bottom: 10px;
+      letter-spacing: -.3px;
+      position: relative;
     }
     .cta-box p {
+      font-family: var(--font-body);
       font-size: 15px;
-      color: rgba(255,255,255,0.85);
+      color: rgba(255,255,255,0.8);
       margin-bottom: 22px;
+      position: relative;
     }
-    .cta-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    .cta-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; position: relative; }
     .btn-primary {
-      background: #fff;
-      color: var(--blue-dark);
-      padding: 12px 28px;
-      border-radius: var(--radius-md);
-      font-size: 15px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: opacity .2s;
-    }
-    .btn-primary:hover { opacity: 0.9; }
-    .btn-outline {
-      border: 1.5px solid rgba(255,255,255,0.6);
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-d) 100%);
       color: #fff;
       padding: 12px 28px;
       border-radius: var(--radius-md);
+      font-family: var(--font);
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity .2s, transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 16px rgba(255,179,0,0.45);
+    }
+    .btn-primary:hover { opacity: 0.92; transform: translateY(-1px); box-shadow: 0 6px 22px rgba(255,179,0,0.55); }
+    .btn-outline {
+      border: 1.5px solid rgba(255,255,255,0.35);
+      color: rgba(255,255,255,0.9);
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      font-family: var(--font-body);
       font-size: 15px;
       font-weight: 500;
       text-decoration: none;
-      transition: background .2s;
+      transition: background .2s, border-color .2s;
+      backdrop-filter: blur(8px);
     }
-    .btn-outline:hover { background: rgba(255,255,255,0.1); }
+    .btn-outline:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.55); }
 
     /* ── FOOTER NAV ── */
     .footer-nav {
       background: var(--white);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       border-radius: var(--radius-lg);
       padding: 20px 24px;
       margin-bottom: 48px;
     }
-    .footer-nav p { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
+    .footer-nav p { font-family: var(--font-body); font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
     .jurusan-links {
       display: flex;
       flex-wrap: wrap;
@@ -438,25 +501,28 @@
     }
     .jurusan-links a {
       background: var(--bg-soft);
-      border: 1px solid var(--border);
+      border: 1px solid var(--blue-light);
       color: var(--text-main);
+      font-family: var(--font-body);
       font-size: 13px;
       padding: 6px 14px;
       border-radius: 20px;
       text-decoration: none;
-      transition: background .15s;
+      transition: background .15s, color .15s, border-color .15s;
     }
-    .jurusan-links a:hover { background: var(--blue-light); color: var(--blue-dark); }
+    .jurusan-links a:hover { background: var(--blue-light); color: var(--navy); border-color: rgba(11,61,145,0.2); }
     .jurusan-links a.active {
-      background: var(--blue-mid);
+      background: var(--navy-m);
       color: #fff;
-      border-color: var(--blue-mid);
+      border-color: var(--navy-m);
+      font-family: var(--font);
+      font-weight: 600;
     }
 
     /* ── DIVIDER ── */
     hr.divider {
       border: none;
-      border-top: 1px solid var(--border);
+      border-top: 1px solid var(--blue-light);
       margin: 32px 0;
     }
 
@@ -786,12 +852,12 @@
     <p>📂 Jelajahi semua kompetensi keahlian di SMK:</p>
     <div class="jurusan-links">
       <a href="#" class="active">Akuntansi (AKL)</a>
-      <a href="#">Teknik Komputer &amp; Jaringan</a>
-      <a href="#">Administrasi Perkantoran</a>
-      <a href="#">Pemasaran</a>
-      <a href="#">Farmasi</a>
-      <a href="#">Keperawatan</a>
-      <a href="#">Jurusan Lainnya</a>
+      <a href="#">Teknik Komputer dan Jaringan</a>
+      <a href="#">Desain Komunikasi Visual</a>
+      <a href="#">Bisnis Digital</a>
+      <a href="#">Manajemen Perkantoran</a>
+      <a href="#">Teknik Kendaraan Ringan</a>
+      <a href="#">Teknik Sepeda Motor</a>
     </div>
   </div>
 
